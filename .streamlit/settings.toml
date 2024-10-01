@@ -1,0 +1,21 @@
+[general]
+version = "0.1.2"
+
+[languages]
+lang_from = ['English', 'Polish']
+lang_to = ['Polish', 'English']
+
+[display]
+height = 300
+
+[bigquery]
+tableid = 'healthcare-demo-380509.babelfish.entities'
+
+[model]
+name = "gemini-1.5-flash-001"
+temperature = 0.1
+max_output_tokens = 2048
+location = "us-central1"
+
+# Wait time before next API call
+sleep_time = 0.5

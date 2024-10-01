@@ -1,0 +1,5 @@
+streamlit
+tomli
+google-auth
+google-cloud-aiplatform
+bs4
